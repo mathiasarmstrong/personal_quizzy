@@ -3,3 +3,5 @@ var Question = Backbone.Model.extend({
     selectedAnswer: null
   }
 });
+
+var Result = Backbone.Model.extend();
