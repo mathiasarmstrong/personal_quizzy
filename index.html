@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div id='quizzy'>
+
+</div>
+  <script id="question" type="text/template">
+    <h3><%= question %></h3>
+
+      <form>
+        a.) <%= a %><input type="radio" name="answer" id="answer-1"><br>
+        b.) <%= b %><input type="radio" name="answer" id="answer-2"><br>
+        c.) <%= c %><input type="radio" name="answer" id="answer-3"><br>
+        d.) <%= d %><input type="radio" name="answer" id="answer-4"><br>
+      </form>
+  </script>
+
+    <script src="vendor/JS/jquery-1.11.1.js" > </script>
+    <script src="vendor/JS/underscore-min.js" > </script>
+    <script src="vendor/JS/backbone-min.js" > </script>
+    <script src="app/js/models/question.js"> </script>
+    <script src="app/js/collections/questions.js"> </script>
+    <script src="app/js/views/quiz-view.js"> </script>
+    <script src="app/js/views/question-view.js"> </script>
+    <script src="app/js/main.js"></script>
+  </body>
+</html>
